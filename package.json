@@ -1,0 +1,19 @@
+{
+  "name": "3drdsh3in.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3drdsh3in/3drdsh3in.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3drdsh3in/3drdsh3in.github.io/issues"
+  },
+  "homepage": "https://github.com/3drdsh3in/3drdsh3in.github.io#readme"
+}

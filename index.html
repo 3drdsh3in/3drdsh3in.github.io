@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 
+    content="width=device-width" tells the device that the edge of the website
+    should follow the edge of the viewing device
+    initial-scale=1.0 tells device it needs to scale the content in the website 
+    to the corresponding device. If this doesn't exist text will appear very small
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to my Webpage</title>
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.css">
+
+    <!-- AOS scroll plugin -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Page Icon -->
+    <link rel="icon" type="" href="./images/fa-coffee icon.png">
+</head>
+<!-- Hello World 2 -->
+
+<body>
+    <nav class=" main_nav">
+        <i class="fas fa-bars fa-2x" id="book_bars"></i>
+        <a href="index.html" id="icon_link"><i class="fas fa-coffee fa-3x"></i></a>
+        <ul class="nav_flex">
+            <a class="nav_link" href="#about-me">
+                <li class="">About me</li>
+            </a>
+            <a class="nav_link" href="#projects-section">
+                <li class="">Projects</li>
+            </a>
+            <a class="nav_link" href="#connect-tab">
+                <li class="">Connect with me</li>
+            </a>
+            <a class="nav_link" href="#main-footer">
+                <li class="">Contact</li>
+            </a>
+            <a class="nav_link" href="./downloads/Software-Dev-Resume-Updated.docx" download>
+                <li class="">Resume<i class="fas fa-download" id=""></i></li>
+            </a>
+        </ul>
+    </nav>
+    <header class="main_header" id="main_header">
+        <div class="flexBox" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+            data-aos-offset="0">
+            <div class="leftBox">
+                <h1>People Work Better Together</h1>
+                <br>
+                <p>"Coming together is a beginning. Keeping together is progress. Working together is success."
+                    <span class="newLine-header"> -Henry Ford </span></p>
+            </div>
+            <div class="rightBox">
+                <br>
+                <p>Want to work with me? I'm always looking for new projects or a coding buddy. Don't be shy, get in
+                    touch!
+                </p>
+                <br>
+                <a href="#main-footer"><button>Get in touch</button></a>
+            </div>
+        </div>
+        <a href="#about-me" class="header-link"><i class="fas fa-chevron-down fa-3x swing bounce"></i></a>
+    </header>
+    <main>
+        <section id="about-me">
+            <div class="intro-div">
+                <div class="intro-summary" data-aos="fade-right" data-aos-duration="1500">
+                    <h1>Who i am...</h1>
+                    <hr>
+                    <h2>Hello! My name is Edward and I'm a Front End Developer</h2>
+                    <p>Like many other people, I enjoy spending my free time expanding my knowledge about Web
+                        Development
+                        and
+                        building new and
+                        challenging projects to better my skills so that i can become a better software developer!</p>
+                    <a href="#projects-section" class="intro-button"><button>Find out more</button></a>
+                </div>
+                <div class="intro-image" data-aos="fade-left" data-aos-duration="1500">
+                    <img src="./images/intro-databases.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="projects-section">
+            <div class="projects-intro">
+                <h1>Projects</h1>
+                <hr>
+                <div class="switch-text">
+                    <p id="switch-overview" class="switch-overview">Overview</p>
+                    <p id="switch-projects" class="switch-projects">Projects</p>
+                </div>
+                <div id="switch-container" class="switch-container">
+                    <label class="switch">
+                        <input id="switch-checkbox" type="checkbox">
+                        <span id="slider" class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="projects-container">
+                <!-- Movie Search App: -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="flip-card-front-cover"></div>
+                            <div class="flip-card-front-content">
+                                <h3>Movie/TV Search App</h3>
+                                <img class="project-screen" src="./images/project-screen-movie-app.png" alt="Movie App">
+                                <div>
+                                    <h3>Overview</h3>
+                                    <hr>
+                                    <p>
+                                        Watch Trailers, read reviews and entice your interests in
+                                        exciting new mass media productions. Browse and search for your favourite
+                                        Movies, TV
+                                        shows and actors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Technologies Used:</h3>
+                            <ul>
+                                <li>Sass</li>
+                                <hr>
+                                <li>React Router</li>
+                                <hr>
+                                <li>Redux</li>
+                                <hr>
+                                <li>TMDb API</li>
+                                <hr>
+                                <li>Swiper.js</li>
+                            </ul>
+                            <div class="project-buttons">
+                                <a href="https://3drdsh3in.github.io/movie-app">
+                                    <button>Project</button>
+                                </a>
+                                <a href="https://github.com/3drdsh3in/movie-app">
+                                    <button>Source Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tourist's Todo App -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="flip-card-front-cover"></div>
+                            <div class="flip-card-front-content">
+                                <h3>Tourism Todo App</h3>
+                                <img class="project-screen" src="./images/project-screen-todo-app.png" alt="Movie App">
+                                <div>
+                                    <h3>Overview</h3>
+                                    <hr>
+                                    <p>Search for place and set
+                                        todos for the corresponding places
+                                        you want to visit. Set notes and reminders
+                                        on when to complete certain tasks with an intuitive
+                                        user experience!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Technologies Used:</h3>
+                            <ul>
+                                <li>Bootstrap 4</li>
+                                <hr>
+                                <li>Sass</li>
+                                <hr>
+                                <li>Interactive Javascript</li>
+                                <hr>
+                                <li>Google Maps API</li>
+                                <hr>
+                                <li>Geolocation API</li>
+                            </ul>
+                            <div class="project-buttons">
+                                <a href="https://3drdsh3in.github.io/todo-app">
+                                    <button>Project</button>
+                                </a>
+                                <a href="https://github.com/3drdsh3in/todo-app">
+                                    <button>Source Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Business Page -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="flip-card-front-cover"></div>
+                            <div class="flip-card-front-content">
+                                <h3>Digital Marketing Website</h3>
+                                <img class="project-screen" src="./images/project-screen-digital-edge.png"
+                                    alt="Movie App">
+                                <div>
+                                    <h3>Overview</h3>
+                                    <hr>
+                                    <p> It can be intimidating for many traditional businesses in taking their first
+                                        steps
+                                        into the online world. Digital Edge assists such businesses in establishing a
+                                        significant online presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Technologies Used:</h3>
+                            <ul>
+                                <li>Semantic HTML5</li>
+                                <hr>
+                                <li>Sass</li>
+                                <hr>
+                                <li>jQuery</li>
+                                <hr>
+                                <li>AOS Library</li>
+                                <hr>
+                                <li>Font Awesome</li>
+                            </ul>
+                            <div class="project-buttons">
+                                <a href="https://3drdsh3in.github.io/digital-edge">
+                                    <button>Project</button>
+                                </a>
+                                <a href="https://github.com/3drdsh3in/digital-edge">
+                                    <button>Source Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tech-skills">
+            <div class="tech-skills">
+                <h1>Technological Skills</h1>
+                <hr>
+                <p>I always enjoy learning new things. Especially the technologies that make your company special.</p>
+                <div class="skill-container">
+                    <p class="item1">Semantic HTML5 <i class="fab fa-html5"></i></p>
+                    <p class="item2">Responsive CSS3 <i class="fab fa-css3-alt"></i></p>
+                    <p class="item3">Javascript <i class="fab fa-js-square"></i></p>
+                    <p class="item4">Bootstrap <i class="fab fa-bootstrap"></i></p>
+                    <p class="item5">Sass <i class="fab fa-sass"></i></p>
+                    <p class="item6">jQuery <i class="fas fa-code"></i></p>
+                    <p class="item7">React <i class="fab fa-react"></i></p>
+                    <p class="item8">Redux <i class="fas fa-sitemap"></i></p>
+                    <p class="item9">Git <i class="fab fa-git-square"></i></p>
+                    <p class="item10">Github <i class="fab fa-github"></i></p>
+                    <p class="item11">Transmute Mockups/Wireframes <i class="fas fa-cogs"></i></p>
+                </div>
+            </div>
+        </section>
+        <section id="connect-tab">
+            <div class="connect-section">
+                <div class="connect-exposition" data-aos="fade-up" data-aos-duration="3000">
+                    <h1>Connect with me:</h1>
+                    <hr>
+                    <p>Want to get in touch? I share my passion for development anywhere I can.</p>
+                </div>
+                <div class="connect-links" data-aos="fade-up" data-aos-duration="3000">
+                    <a href="mailto:edwrdshen@gmail.com"><i class=" fas fa-envelope fa-2x"></i></a>
+                    <a href="https://github.com/3drdsh3in"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://codepen.io/3drdsh3in"><i class="fab fa-codepen fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/edward-shen-90506617b/"><i
+                            class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+        </section>
+        <section id="work-with-me-tab">
+            <div class="work-with-me">
+                <div class="work-intro" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+                    data-aos-offset="0">
+                    <h1>Why work with me?</h1>
+                    <hr>
+                    <p>There are many advantages to working with me. Here are a few.</p>
+                </div>
+                <div class="work-reasons">
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600"
+                        data-aos-offset="0">
+                        <i class="fas fa-code fa-3x"></i>
+                        <h1>Passionate about development</h1>
+                        <p>Big believer in the fact that the greatest work is done by
+                            passionate people.
+                        </p>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="900"
+                        data-aos-offset="0">
+                        <i class="fas fa-book-open fa-3x"></i>
+                        <h1>Quick Learner</h1>
+                        <p>Confident in my ability to learn something new and put it into production. Thrive in
+                            fast-paced and competitive
+                            environments.
+                        </p>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1200"
+                        data-aos-offset="0">
+                        <i class="fas fa-users fa-3x"></i>
+                        <h1>Adaptable</h1>
+                        <p>Always excited to learn new things. The most valuable thing I can provide to your company is
+                            the ability to be molded to
+                            your stack.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer" id="main-footer">
+        <div class="footer-flex">
+            <div class="about-ed" data-aos="fade-up" data-aos-duration="3000">
+                <h1>About Edward</h1>
+                <p>Hello there! My name is Edward and I'm a Front End Developer.</p>
+                <p>I've recently begun my journey as a self-taught web developer.</p>
+                <p>Like many other people, I enjoy spending my free time increasing my knowledge of Web Development and
+                    building new and
+                    challenging projects to better my skills so that i can become a better software developer!</p>
+            </div>
+            <div class="say-hello" data-aos="fade-up" data-aos-duration="3000">
+                <h1>Say hello:</h1>
+                <div class="say-hello-info">
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <p>Email: edwrdshen@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <p>Phone: ---</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright-tag" data-aos="fade-up" data-aos-duration="3000" tabindex="1">&copy;Edward Shen</p>
+    </footer>
+    <script src="./JS/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
+
+<!-- IMPROVEMENTS:
+- All img need alt attr
+- Only 1 h1 tag in entire webpage [for] google search purposes.
+- <article> An entire article <section> -> chapter/section in article. [All semantic tags are just div tags, but they 
+    need to be used meaningfully, since it allows assistive technologies such as google to quickly navigate them.]
+- Boolean attributes such as 'defer' or 'control' are simply included in a tag in order to turn a particular feature on for that
+particular
+- contrast ratio 4.5:1 (smaller text) 3:1 (larger text)
+- accesskey attr for page point navigational purposes
+- tabindex="0" allows users to press tab to reach important sections of your html page.
+- tabindex="1", tabindex="2" will result in a 'LIST' of first tab elements within the page, that is
+when you tab when the page has loaded the tag /w tabindex="1" will be tabbed to first... then tabindex="2"
+and then tabindex="n" (n being any arbitrary number larger than 2) and then default tabindex elements with tabindex="0"
+properties (<a>, <form> tagged links automatically by default have a tabindex="0" attr! )
+- Mac devices have vastly different pixel densities (PPI & DPI) to other devices, in general shit can be dispalyed
+as 'pixelated' on mac devices whereas others it will be clear, an ideal method to fix displays from the web browser in this
+case for mac devices is to simply reduce the x & y directional resolutions to half their values. [Thus yielding 1/4 of the area
+and giving a higher PPI/DPI image.]
+- Extra Viewport CSS syntax:
+vmin (viewport minimum): 70vmin would be 70% of the viewport's smaller dimension (height or width).
+vmax (viewport maximum): 100vmax would be 100% of the viewport's bigger dimension (height or width).
+-->
+
+<!-- Features to potentially include:
+    - Bootstrap navigation bar & link based buttons
+    - I'm still not 100% sure im supposed to write Sass code for the website.
+    - jQuery, not sure how i can use it to implement things as well.
+    - React/Redux, once you have learned something it may be interesting to include
+    some new type of UX/UI system otherwise you may find it difficult to.
+    - Potentially once you've learned some angularJS & vueJS it could help design
+    some new Ux/Ui systems?
+    - PHP, I'm still not 100% sure how but you can use it to very lightly interact with back end servers.
+-->

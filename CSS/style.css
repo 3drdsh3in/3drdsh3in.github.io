@@ -808,7 +808,7 @@ input:checked + .slider:before {
         padding: 100px 12%;
     }
     footer.main-footer {
-        padding: 75px 14%;
+        padding: 100px 14%;
     }
 }
 

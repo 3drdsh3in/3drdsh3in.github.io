@@ -623,6 +623,7 @@ input:checked + .slider:before {
     transform: skew(0deg,-30deg);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    /* Line below needed for flips */
     -webkit-transform-style: preserve-3d;
 }
 @media screen and (max-width: 600px) {
@@ -675,6 +676,7 @@ input:checked + .slider:before {
     position: relative;
     overflow-y: hidden;
     -webkit-backface-visibility: hidden;
+    /* Line below needed for flips */
     -webkit-transform-style: preserve-3d;
     backface-visibility: hidden;
 }
@@ -690,6 +692,7 @@ input:checked + .slider:before {
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
+    /* Line below needed for flips */
     -webkit-transform-style: preserve-3d;
     backface-visibility: hidden;
 }

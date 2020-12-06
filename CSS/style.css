@@ -728,6 +728,10 @@ input:checked + .slider:before {
 .flip-card-back h3 {
     font-weight: lighter;
 }
+.project-details {
+    color: red;
+    text-decoration: underline;
+}
 .project-buttons {
     display: flex;
     flex-direction: row;

@@ -583,6 +583,7 @@ input:checked + .slider:before {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap : 1rem;
+    grid-row-gap : 4rem;
     padding: 3rem 11.5% 100px 11.5%;
 }
 .flip-card-front h3 {
